@@ -9,6 +9,7 @@ for(let i=1;i<10;++i){
 str +='</table>'
     document.getElementById('table1').innerHTML = str
 
+    
 str = '<table border="1">'
 for(let i=9;i>0;--i){
     str += '<tr>'
@@ -19,6 +20,7 @@ for(let i=9;i>0;--i){
 }
     str += '</table>'
     document.getElementById('table2').innerHTML = str
+
 
     str ='<table border="1">'
 for(let i=9;i>0;--i){
